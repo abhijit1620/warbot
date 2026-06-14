@@ -159,7 +159,7 @@ app.post("/webhook", async (req, res) => {
     );
 
     for (const castle of myCastles) {
-      const tiles = generateTiles(castle.x, castle.y, 10);
+      const tiles = generateTiles(castle.x, castle.y, 2);
 
       await send(chatId,
         `🎯 *UNSHIELD ALERT — K${castle.kingdom}*\n` +
