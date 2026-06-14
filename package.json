@@ -1,0 +1,15 @@
+{
+  "name": "warbot-lords-mobile",
+  "version": "1.0.0",
+  "description": "Lords Mobile Unshield Tracker Telegram Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
